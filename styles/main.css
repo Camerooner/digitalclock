@@ -1,0 +1,40 @@
+html {
+    background-color: navy;
+
+}
+
+body {
+    justify-content: center;
+
+}
+
+header {
+    color: aqua;
+
+}
+
+
+main {
+    color: aqua;
+    font-style: bold;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid royalblue;
+  }
+  
+.digitalclock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 10rem;
+    font-weight: bold;
+    color: aqua;
+    text-shadow: 2px 2px navy;
+  }
