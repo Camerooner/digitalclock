@@ -38,3 +38,9 @@ main {
     color: aqua;
     text-shadow: 2px 2px navy;
   }
+
+  @media (max-width: 600px) {
+    .digitalclock {
+        font-size: 5rem;
+    }
+}
