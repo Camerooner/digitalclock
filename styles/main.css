@@ -1,26 +1,22 @@
-html {
+  html {
     background-color: navy;
-
-}
-
-body {
+  }
+  
+  body {
     justify-content: center;
-
-}
-
-header {
+  }
+  
+  header {
     color: aqua;
-
-}
-
-
-main {
+  }
+  
+  main {
     color: aqua;
     font-style: bold;
     font-style: italic;
-}
-
-.container {
+  }
+  
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +24,7 @@ main {
     border: 1px solid royalblue;
   }
   
-.digitalclock {
+  .digitalclock {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,10 +33,21 @@ main {
     font-weight: bold;
     color: aqua;
     text-shadow: 2px 2px navy;
-  }
-
-  @media (max-width: 600px) {
+    padding: 1rem;  } 
+  
+    @media (max-width: 600px) {
     .digitalclock {
-        font-size: 5rem;
+      font-size: 5rem;
+      flex-direction: column;
+      text-align: center;
+      height: 100%;
+      width: 100%;
     }
-}
+  
+    .digitalclock h3 {
+      margin: 0.5rem 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
+   
